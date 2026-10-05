@@ -1,0 +1,85 @@
+body { background-color: lightblue;
+    padding: 40px;
+
+}
+
+h1 {
+    display: flex;
+    color:red;
+    align-items:flex-start;
+}
+
+h2 {
+    text-align:left;
+    font: 100;
+}
+
+p {
+    text-align: left;
+    color:red;
+}
+
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing:grayscale;
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transform-origin: left center;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.01);
+}
+
+.achievement {
+    transition: background-color 0.2s, transform 0.5s;
+    display: flex;
+    color: white;
+    background-color: #2a2f38;
+    padding: 3px;
+    gap: 10px;
+}
+
+.achievement:hover {
+    background-color: #3a4049;
+}
+
+.achievement img {
+    width: 64px;
+    height: 64px;
+    align-self: flex-start;
+}
+
+.details p {
+    color: #b8c4d0;
+}
+
+.details .progress {
+    color: #8a94a0;
+}
+
+.details h2,
+.details p{
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+

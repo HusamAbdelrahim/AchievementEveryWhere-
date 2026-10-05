@@ -1,0 +1,22 @@
+{
+  "name": "achievementeverywhereapp",
+  "version": "0.0.1",
+  "description": "Achievement Desktop Application",
+  "keywords": [
+    "electron",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "license": "MIT",
+  "author": "Mace Rahim",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "electron": "^44.4.5"
+  }
+}
